@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Simple Template" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .layout-wrapper {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+        }
+
+        .content-area {
+            flex: 1;
+        }
+
+        #header {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: white;
+            text-align: center;
+        }
+
+        #header img {
+            max-width: 400px;
+        }
+
+        .content-wrapper {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .section-image {
+            max-width: 100%;
+        }
+
+        .white-line {
+            background-color: white;
+        }
+
+        .green-line {
+            background-color: #ECF7EF;
+        }
+
+        .green {
+            color: #4AA364;
+            font-weight: bold;
+        }
+
+
+        .left {
+            max-width: 50%;
+            padding: 16px;
+        }
+
+        .right {
+            max-width: 50%;
+            padding: 16px
+        }
+
+        .package {
+            max-width: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 300;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="layout-wrapper">
+        <div id="header">
+            <img src="images/gp-logo.png" />
+            <h1>Laboratorní PCR test provádění kloktáním</h1>
+            <h2 class="green">Přijďte se otestovat již dnes</h2>
+        </div>
+
+        <div class="content-area">
+            <div class="white-line">
+                <div class="content-wrapper">
+                    <div class="section">
+                        <div class="left">
+                            <img class="section-image" src="images/8w.png" />
+                            <h3>Snadně, rychle, bezbolestně</h3>
+                            <p>
+                                Test funguje na principu kloktání dutiny ústní a hltanu. Samotný odběr je bezbolestný
+                            </p>
+                            <ol>
+                                <li>Dostavíte se na odběrové místo</li>
+                                <li>Provedete test</li>
+                                <li>Do 24h dostane vyhodnocení</li>
+                            </ol>
+                        </div>
+                        <div class="right">
+                            <img class="section-image" src="images/9w.png" />
+                            <h3>Každý den v čase 8.00 - 20.00</h3>
+                            <p>
+                                Žižkovská věž, Mahlerovy sady 1, Praha 3
+                            </p>
+                            <p>
+                                Na místě je možné zaparkovat a během pár minut provést test. Na místě je možné
+                                zaparkovat a během pár minut provést test.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="green-line">
+                <div class="content-wrapper">
+                    <div style="padding: 32px;">
+                        <h3>Co je to GARGTEST?</h3>
+                        <p>
+                            GARGTEST je unikátní samoodběrová sada založená na principu kloktání dutiny ústní a hltanu.
+                            Samoodběrová sada je určena k odběru vzorků, které se vyhodnocují na přítomnost virů
+                            infikujících dutinu ústní a horní cesty dýchací ve zdravotnické laboratoři. Vyhodnocení
+                            provede
+                            tato laboratoř pomocí běžně dostupných postupů na izolaci nukleových kyselin a pomocí
+                            detekce
+                            založené na amplifikaci nukleových kyselin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="content-wrapper">
+            <div style="text-align: center; width: 100%; padding-top: 64px; padding-bottom: 64px;">
+                <h2 class="green">Již brzy spustíme eshop pro domácí testování</h2>
+            </div>
+        </div>
+
+        </div>
+
+        <div style="background-color: whitesmoke;">
+            <div style="text-align: center; padding-top: 16px; padding-bottom: 16px;">
+                info@gargpoint.cz, infolinka: +420732364404
+            </div>
+        </div>
+    </div>
+
+</body>
